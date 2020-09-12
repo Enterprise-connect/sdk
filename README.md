@@ -14,29 +14,6 @@ The Enterprise-Connect SDK Repo.
 ## x509 Certificates, RSA keypair, licensing, security
 Please contact ec-research@ge.com for detais.
 
-## Validation
-```
-## Verify the checksum
-### Linux
-```bash
-$ sha256 ./path/to/file/ecagent_linux_sys
-b3bf9cd9686e
-$ awk 's=index($0,"b3bf9cd9686e") { print "line=" NR, "start position=" s}' checksum.txt
-line=2 start position=1
-```
-### Mac OS
-```
-$ shasum -a 256 ./path/to/file/ecagent_linux_sys
-b3bf9cd9686e
-$ awk 's=index($0,"b3bf9cd9686e") { print "line=" NR, "start position=" s}' checksum.txt
-line=2 start position=1
-```
-### Windows
-```bash
-c: \> CertUtil -hashfile C:\path\to\file\ecagent_windows.exe sha256
-b3bf9cd9686e (find the checksum in the checksum.txt)
-```
-
 ## Release History
 Please verify the [Release History](https://github.com/EC-Release/sdk/releases) for previous releases.
 
