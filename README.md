@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.com/Enterprise-connect/build.svg?branch=v1.1)](https://travis-ci.com/Enterprise-connect/build)
 
+# v1.1 is deprecated
+
 # The Agent SDK
 The Enterprise-Connect SDK Repo.
 - [Design](https://github.com/Enterprise-connect/sdk/wiki/EC-Agent)
