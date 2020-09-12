@@ -1,4 +1,4 @@
-# Attention: v1.1 is Deprecated and no longer in maintaining.
+# Attention: v1.1 is Deprecated and no longer maintained.
 
 [![Build Status](https://travis-ci.com/EC-Release/build.svg?branch=v1.1)](https://travis-ci.com/EC-Release/build)
 
